@@ -126,7 +126,17 @@ td {
     text-align: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
+    body {
+        margin: auto;
+    }
+    img {
+        display: block;
+        width: 90vw;
+        height: 25rem;
+        margin: auto;
+        border-radius: 1rem;
+    }
     table {
         width: 90%;
     }
