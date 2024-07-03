@@ -1,0 +1,133 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --roseWhite: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --lightGrey: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkCharcoal: hsl(24, 5%, 18%);
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkRaspberry: hsl(332, 51%, 32%);
+    ;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 400;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    width: 100vw;
+    height: 15rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Younserif';
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin: 1rem 0;
+    padding: 1.2rem;
+}
+
+h2 {
+    color: var(--nutmeg);
+}
+
+h3 {
+    font-family: 'Outfit';
+    color: var(--darkRaspberry);
+    font-size: 32px;
+}
+
+li span {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+p,
+ul,
+ol,
+tr {
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+}
+
+.instructions,
+.ingredients,
+.preparation {
+    padding: 0 4rem;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+table>p {
+    margin-bottom: 10rem;
+}
+
+td:nth-child(2) {
+    color: var(--nutmeg);
+    font-weight: 600;
+}
+
+tr,
+td {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+    table {
+        width: 90%;
+    }
+}
